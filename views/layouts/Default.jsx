@@ -11,9 +11,9 @@ class Default extends React.Component {
                 </head>
                 <body>
                     <nav>
-                        <a href='/pokemons'>Go to Home Page For Pokemon</a>
-                        <a href="/pokemons/new">Create a New <Pokemon></Pokemon></a>
-                        { this.props.pokemon? <a href={`/pokemons/${pokemon._id}/edit`}> {pokemon.name} Edit Page </a> : ''}
+                        <a href='/pokemons'>Go to Home Page For Pokemon</a><br />
+                        <a href="/pokemons/new">Create a New Pokemon</a><br />
+                        { this.props.pokemon? <a href={`/pokemons/${pokemon._id}/edit`}> {pokemon.name} Edit Page </a> : ''}<br/>
                         { this.props.pokemon? <a href={`/pokemons/${pokemon._id}`}>{pokemon.name} Show Page </a> : ''}
                     </nav>
                     <h1>
