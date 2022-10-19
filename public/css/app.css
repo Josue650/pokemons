@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa%7CRighteous');
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Indie+Flower&display=swap');
 
 
 body {
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9IQ2tHF4Zr-332nQlxsIjQOwtGtuvbaiM_g&usqp=CAU);
   margin: 0;
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
   display: block;
+  text-align: center;
+
 }
 
 h1 {
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'Fuzzy Bubbles', cursive;
   background: rgba(5, 248, 9, 0.9);
   margin:0;
   margin-bottom: .5em;
   /* padding: 1em; */
   text-align: center;
+  color: red;
 }
 
 a {
@@ -24,6 +26,7 @@ a {
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
   font-size: 1.5em;
   background: rgba(5, 248, 9, 0.9);
+  text-align: center;
 }
 
 a:hover {
@@ -32,10 +35,14 @@ a:hover {
 
 li {
   list-style: circle;
+  text-shadow: rgb(255, 0, 0);
+  text-align: left;
+
 }
 
 li a {
   color: red;
+
 }
 
 input[type=text] {
@@ -51,12 +58,12 @@ input[type=submit] {
 }
 form{
     color: rgb(0, 0, 0);
+    text-shadow:3px 3px 3px red;
 
 }
 p{
     color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 1em;
+    text-shadow: rgb(255, 0, 0);
 }
  .image{
     display: flex;
